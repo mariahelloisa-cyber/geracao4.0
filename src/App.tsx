@@ -9,6 +9,7 @@ import Cursos from "./pages/Cursos.tsx";
 import CursoDetalhe from "./pages/CursoDetalhe.tsx";
 import Blog from "./pages/Blog.tsx";
 import AreaAluno from "./pages/AreaAluno.tsx";
+import Formulario from "./pages/formulario.tsx";
 import BlogPost from "./pages/BlogPost.tsx";
 import NotFound from "./pages/NotFound.tsx";
 import AdminLogin from "./pages/admin/AdminLogin.tsx";
@@ -39,6 +40,7 @@ const App = () => (
             <Route path="/blog" element={<Blog />} />
             <Route path="/blog/:slug" element={<BlogPost />} />
             <Route path="/area-do-aluno" element={<AreaAluno />} />
+            <Route path="/formulario" element={<Formulario />} />
 
             <Route path="/admin/login" element={<AdminLogin />} />
             <Route

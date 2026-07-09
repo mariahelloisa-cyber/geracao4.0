@@ -40,6 +40,7 @@ const Header = () => {
           <Link to="/blog" className="text-foreground hover:text-primary transition-colors">Blog</Link>
           <Link to="/cursos" className="text-foreground hover:text-primary transition-colors">Cursos</Link>
           <Link to="/area-do-aluno" className="text-foreground hover:text-primary transition-colors">Área do Aluno</Link>
+          <Link to="/formulario" className="text-foreground hover:text-primary transition-colors">Formulário</Link>
           <Link to="/admin/login" className="text-foreground hover:text-primary transition-colors" title="Admin">
             <Shield className="h-4 w-4" />
           </Link>
