@@ -118,7 +118,7 @@ const Formulario = () => {
             Formulário de Matrícula
           </h1>
           <p className="text-sm text-slate-500 md:text-base">
-            Preencha todos os campos obrigatórios para concluir sua matrícula.
+            Preencha todos os campos obrigatórios para darmos início a sua matrícula.
           </p>
         </div>
 
