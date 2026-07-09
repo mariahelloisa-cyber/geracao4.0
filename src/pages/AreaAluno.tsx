@@ -108,11 +108,6 @@ const AreaAluno = () => {
         {/* Banner com Imagem Única centralizada */}
         <div className="mb-8 overflow-hidden rounded-xl bg-white shadow-sm">
           <div className="flex items-center justify-center p-6">
-            <img
-              src="banner.png" 
-              alt="Banner de Matrícula"
-              className="max-h-32 w-auto object-contain"
-            />
           </div>
           <div className="h-1.5 w-full bg-gradient-to-r from-pink-500 via-purple-500 to-blue-500"></div>
         </div>
